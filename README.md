@@ -10,4 +10,4 @@ My project from the JetBrains Academy Track: Frontend Developer.
 
 #### - JavaScript
 
-## Demo:
+## Demo: https://alena2020.github.io/Magic-Form/

@@ -14,20 +14,30 @@ body {
   align-items: center;
 }
 
-#menu{
+header{
   background: #0dcaf0;
   box-shadow: 5px 5px 10px mediumblue, 1px 3px 5px midnightblue inset;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content:stretch;
+  justify-content:center;
   padding: 20px;
+}
+
+nav {
+  width: 55%;
+  padding: 5px;
 }
 
 nav a {
   text-decoration: none;
   color: aliceblue;
-  margin: 0 auto;
+  margin-right: 20px; 
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: midnightblue;
 }
 
 form {
@@ -38,11 +48,17 @@ form {
   width: 90%;
 }
 
-input {
+#inputs{
   width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
   font-size: 20px;
   padding: 7px;
   margin-bottom: 10px;
+  border-radius: 5%;
   box-shadow: 5px 5px 10px mediumblue, 1px 3px 5px midnightblue inset;
 }
 
@@ -56,4 +72,17 @@ input {
   margin-top: 30px;
   padding: 10px; 
   width: 30%; 
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  border: 3px solid midnightblue;
+  box-shadow: 5px 5px 10px midnightblue, 10px 30px 45px midnightblue inset;
+  transition: 0.2s;
+  transform: translateY(-1px);
+}
+
+#submit-button:active {
+  box-shadow: 5px 5px 10px cyan, 10px 30px 45px cyan inset;
+  transition: 0.2s;
 }
