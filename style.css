@@ -86,3 +86,37 @@ input {
   box-shadow: 5px 5px 10px cyan, 10px 30px 45px cyan inset;
   transition: 0.2s;
 }
+
+.submit-history-cards{
+  width: 53%;
+  color: midnightblue;
+  margin-top: 40px;
+}
+
+.submit-history-card{
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px cyan, 10px 30px 45px white inset; 
+  border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-label{
+  color:mediumblue;
+  margin: 10px 0;
+}
+
+.delete-button{
+  align-self: center;
+  width: 30%;
+  background-color:magenta;
+  box-shadow: 5px 5px 10px cyan;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 21px;
+  padding: 5px;
+  margin: 10px 5px;
+  cursor: pointer;
+}
